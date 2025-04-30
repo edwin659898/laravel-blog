@@ -1,4 +1,6 @@
 # Laravel 11.x blog
+![image](https://github.com/user-attachments/assets/a48a7c5b-6411-4b6a-ba8b-9a5180ebc468)
+![image](https://github.com/user-attachments/assets/d0dfadfc-7050-434f-807a-62ed831744db)
 
 The purpose of this repository is to show good development practices on [Laravel](http://laravel.com/) as well as to present cases of use of the framework's features like:
 
