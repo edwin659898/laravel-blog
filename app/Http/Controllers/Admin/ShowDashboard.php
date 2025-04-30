@@ -21,4 +21,14 @@ class ShowDashboard extends Controller
             'users' => User::lastWeek()->get(),
         ]);
     }
+
+    public function pageLayout()
+    {
+        return view('font.layout.pages-layout', [
+            // return view('admin.dashboard.index', [
+            // 'comments' => Comment::lastWeek()->get(),
+            // 'posts' => Post::lastWeek()->get(),
+            // 'users' => User::lastWeek()->get(),
+        ]);
+    }
 }

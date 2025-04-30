@@ -22,6 +22,15 @@ class PostController extends Controller
         ]);
     }
 
+
+
+    public function index2(Request $request): View
+    {
+        return view('font.layout.pages-layout');
+    }
+
+
+
     /**
      * Display the specified resource.
      */

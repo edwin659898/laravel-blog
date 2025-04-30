@@ -5,6 +5,7 @@
             {{ config('app.name', 'Laravel') }}
         </a>
 
+
         <!-- Collapsed Hamburger -->
         <button
             class="navbar-toggler"
@@ -28,6 +29,22 @@
                     </li>
                 </ul>
             @endadmin
+            <ul></ul>
+        <ul></ul>
+        <ul></ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="{{ route('admin.dashboard') }}" class="nav-link">
+                        @lang('Our Website')
+                    </a>
+                </li>
+            </ul><ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="{{ route('admin.dashboard') }}" class="nav-link">
+                        @lang('Contact us')
+                    </a>
+                </li>
+            </ul>
 
             <ul class="navbar-nav ms-auto">
                 @guest

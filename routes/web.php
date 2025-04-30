@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', [PostController::class, 'index'])->name('home');
 Route::get('/posts/feed', [PostFeedController::class, 'index'])->name('posts.feed');
 Route::resource('posts', PostController::class)->only('show');
